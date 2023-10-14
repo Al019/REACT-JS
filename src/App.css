@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  border: 1px solid red;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.filter input {
+  height: 50px;
+  width: 500px;
+  font-size: larger;
+  font-weight: bolder;
+  border: 3px solid tomato;
+  border-radius: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+
+.crud-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 0 3px 2px tomato;
+  border-radius: 20px;
+}
+
+.crud-form input {
+  height: 30px;
+  width: 200px;
+  font-size: large;
+  font-weight: bold;
+  border: 3px solid tomato;
+  border-radius: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.crud-form button {
+  height: 50px;
+  width: 150px;
+  border: 3px solid tomato;
+  border-radius: 25px;
+  background: none;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: tomato;
+}
+
+.crud-form button:hover {
+  background: tomato;
+  color: #fff;
+}
+
+.fruit-list {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.fruit-list button {
+  font-family: 'Poppins', sans-serif;
+  margin-right: 10px;
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.fruit-item {
+  box-shadow: 0 0 3px 2px tomato;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-edit {
+  background: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.btn-delete {
+  background: red;
+  color: #fff;
+  border: none;
+  outline: none;
+}
